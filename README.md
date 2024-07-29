@@ -12,10 +12,11 @@ The CareFinder App is a web application that allows users to find hospitals near
 7. Firebase Setup
 8. Authentication
 9. Hospital Data Management
-10. Export and Sharing
-11. Testing
-12. Deployment
-13. Conclusion
+10. Pharmacy Data Management
+11. Export and Sharing
+12. Testing
+13. Deployment
+14. Conclusion
 
 ## 1. Introduction
 The CareFinder App is designed to help users easily find hospitals in their vicinity and access important information about each hospital. It provides a user-friendly interface for searching hospitals, creating hospital entries, and exporting hospital data. The app also supports user authentication to ensure secure access to the features.
@@ -87,19 +88,25 @@ The Hospital Data Management features allow users to perform the following actio
 - Search Hospitals: Users can search for hospitals near their location using the search functionality.
 - Create Hospital Entries: Admin users can create hospital entries with details such as name, address, phone number, etc. The entries are stored in the Firebase Firestore database.
 - Display Hospital Details: Users can view the details of each hospital, including the name, address, phone number, and other relevant information.
+The hospital data management code is implemented in the  `HospitalForm`, `HospitalSearch`, `HospitalDetails`, and `HospitalForm` components.
 
-The hospital data management code is implemented in the `HospitalSearch`, `HospitalDetails`, and `HospitalForm` components.
+## 10. Pharmacy Data Management
+The Pharmacy Data Management features allow users to perform the following actions:
+- Search Pharmacies: Users can search for pharmacies near their location using the search functionality.
+- Create Pharmacy Entries: Admin users can create pharmacies entries with details such as name, address, phone number, etc. The entries are stored in the Firebase Firestore database.
+- Display Pharmacy Details: Users can view the details of each pharmacy, including the name, address, phone number, and other relevant information.
+The hospital data management code is implemented in the 
+`PharmacyForm`,
+`PharmacySearch`, `PharmacyDetails`, and `PharmacyForm` components.
 
-## 10. Export and Sharing
+## 11. Export and Sharing
 The Export and Sharing feature allows users to export the hospital data and share it with others. It includes the following functionality:
 - Export to CSV: Users can export the hospital data in CSV format. The exported file contains the hospital details such as name, address, phone number, etc.
 - File Download: The exported file is downloaded on the user's device using the FileSaver library.
 
 The export and sharing functionality is implemented in the `Export` component.
 
-
-
-## 11. Testing
+## 12. Testing
 The CareFinder App includes unit tests and component tests to ensure the quality and reliability of the code. The tests cover critical components and functionalities of the app.
 
 To run the tests, use the following command:
@@ -107,7 +114,7 @@ To run the tests, use the following command:
 npm test
 ```
 
-## 12. Deployment
+## 13. Deployment
 To deploy the Hospital Finder App to a production environment, follow these steps:
 1. Build the production-ready app using the following command:
 ```
@@ -116,6 +123,5 @@ npm run build
 2. The build files will be generated in the `build` directory.
 3. Deploy the generated build files to a web server or a hosting service of your choice.
 
-## 13. Conclusion
-The CareFinder App is a comprehensive solution for finding hospitals, managing hospital data, exporting data, and sharing it with others. The detailed documentation provided here gives you an overview of the project structure, dependencies, Firebase setup, authentication, hospital data management, export and sharing features, testing, and deployment.
-
+## 14. Conclusion
+The CareFinder App is a comprehensive solution for finding hospitals, pharmacies, managing hospital and pharmacy data, exporting data, and sharing it with others. The detailed documentation provided here gives you an overview of the project structure, dependencies, Firebase setup, authentication, hospital and pharmacy data management, export and sharing features, testing, and deployment.
