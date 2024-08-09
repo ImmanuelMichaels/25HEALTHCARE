@@ -11,25 +11,23 @@ const Routers = () => {
       <Route path="home" element={<Home />} />
       <Route path="login" element={<Login />} />
       <Route
-        path="hospital"
+        path="/hospital"
         element={
           <ProtectedRoute>
             <HospitalSearch />
-            <PharmacySearch />
           </ProtectedRoute>
         }
       />
       <Route
-        path="pharmacy"
+        path="/pharmacy"
         element={
           <ProtectedRoute>
-            <HospitalSearch />
             <PharmacySearch />
           </ProtectedRoute>
         }
       />
-      <Route path="hospital/:id" element={<HospitalDetails />} />
-      <Route path="pharmacy/:id" element={<PharmacyDetails />} />
+      <Route path="/hospital/:id" element={<HospitalDetails />} />
+      <Route path="/pharmacy/:id" element={<PharmacyDetails />} />
       <Route path="signup" element={<Signup />} />
     </Routes>
   );

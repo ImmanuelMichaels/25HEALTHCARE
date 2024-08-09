@@ -17,13 +17,13 @@ const Footer = () => {
             
              <div>
               <h1 className='text-white'>
-                <span>⚕</span>
-                GraceCareFinder</h1>
+              <img src="../public/logo.png" alt="logo image" />
+                WellnessCompass</h1>
              </div>
             </div>
 
             <p className="footer__text mt-4 ">
-            Find hospitals and pharmacies <br />close to you effortlessly.</p>
+            Find hospitals and pharmacies <br />with ease.</p>
           </Col>
 
          
@@ -60,17 +60,17 @@ const Footer = () => {
             <ListGroup className='footer__contact'>
               <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
                 <span><i class="ri-map-pin-2-line"></i></span>
-                <p>12 Montagory Road, Yaba, Lagos, Nigeria</p>
+                <p>30 Awolowo way, Ogun State, Nigeria</p>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
               <span><i class="ri-phone-line"></i></span>
-                <p>+234 808 786 7909</p>
+                <p>+234 818 321 9693</p>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
               <span><i class="ri-mail-line"></i></span>
-                <p>contact@gracecarefinder.com</p>
+                <p>chat@wellnesscompass.com</p>
               </ListGroupItem>
 
             </ListGroup>
@@ -79,7 +79,7 @@ const Footer = () => {
 
            <Col lg='12'>
            <p className="footer__copyright">
-            Copyright {year } developed by Akinyeke Daniel. All rights reserved. 
+            Copyright {year } developed by Samuel Oyelaran. All rights reserved. 
            </p>
            </Col>  
         </Row>

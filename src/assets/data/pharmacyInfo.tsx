@@ -1,5 +1,5 @@
 
-const pharmacyInfo = [
+const pharmaciesInfo = [
     {
         id: "01",
         pharmaciesName: " Ajayi Pharmacy",
@@ -46,7 +46,7 @@ const pharmacyInfo = [
       },
       {
         id: "03",
-        pharmacyName: " GB Pharmacy",
+        pharmaciesName: " GB Pharmacy",
         address: "20, Umuahia Road, Abia.",
         location: "abia",
         type:"pharmacies",
@@ -68,7 +68,7 @@ const pharmacyInfo = [
       },
       {
         id: "04",
-        pharmacyName: " Olumide Pharmacy",
+        pharmaciesName: " Olumide Pharmacy",
         address: "20, Etoba Road, Benin, Edo.",
         location: "Edo",
         type:"pharmacies",
@@ -90,7 +90,7 @@ const pharmacyInfo = [
       },
       {
         id: "05",
-        pharmacyName: "Amuwo Pharmacy",
+        pharmaciesName: "Amuwo Pharmacy",
         address: " 2nd Floor, 403 Festac Road , Amuwo Odofin, Lagos.",
         location: "lagos",
         type: "pharmacies",
@@ -112,7 +112,7 @@ const pharmacyInfo = [
       },
       {
         id: "06",
-        pharmacyName: "Akinaka Pharmacy",
+        pharmaciesName: "Akinaka Pharmacy",
         address: "70, Tejuosho Street, Yaba, Lagos.",
         location: "lagos",
         type: "pharmacies",
@@ -134,7 +134,7 @@ const pharmacyInfo = [
       },
       {
         id: "08",
-        pharmacyName: "Abi Pharmacy",
+        pharmaciesName: "Abi Pharmacy",
         address: " BZ 104 Ogori Road, off Sardauna Crescent, Kaduna, Kaduna State.",
         location: "kaduna",
         type: "pharmacies",
@@ -156,7 +156,7 @@ const pharmacyInfo = [
       },
       {
         id: "11",
-        pharmacyName: "Abitoye Pharmacy",
+        pharmaciesName: "Abitoye Pharmacy",
         address: "Ado Ekiti, Ekiti State.",
         location: "ekiti",
         type: "pharmacies",
@@ -178,7 +178,7 @@ const pharmacyInfo = [
       },
       {
         id: "12",
-        pharmacyName: "Abitoye Pharmacy",
+        pharmaciesName: "Abitoye Pharmacy",
         address: "Akure, Ondo State.",
         location: "ondo",
         shortDesc:
@@ -199,7 +199,7 @@ const pharmacyInfo = [
       },
       {
         id: "21",
-        pharmacyName: "Adamawa Pharmacy",
+        pharmaciesName: "Adamawa Pharmacy",
         address: "2,Lamido Sanda Road, Yola, Adamawa State.",
         location: "adamawa",
         type: "pharmacies",
@@ -243,7 +243,7 @@ const pharmacyInfo = [
       },
       {
         id: "33",
-        pharmacyName: "Adeoyo State Pharmacy",
+        pharmaciesName: "Adeoyo State Pharmacy",
         address: "Adeoyo Hospital Road, off Ring Road, Ibadan, Oyo State.",
         location: "oyo",
         type: "pharmacies",
@@ -266,4 +266,4 @@ const pharmacyInfo = [
     
   ];
   
-  export default pharmacyInfo;
+  export default pharmaciesInfo;

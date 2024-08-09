@@ -9,9 +9,8 @@ import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import PharmacyList from "../components/UI/PharmacyList";
 
-import  PharmacyInfo  from "../assets/data/pharmacyInfo";
-import "../styles/product-details.css";
 import pharmaciesInfo from "../assets/data/pharmacyInfo";
+import "../styles/product-details.css";
 
 const PharmacyDetails = () => {
     const [tab, setTab] = useState("desc");
@@ -21,9 +20,10 @@ const PharmacyDetails = () => {
     const dispatch = useDispatch();
   
     const { id } = useParams<{ id: string }>();
-    const information = PharmacyInfo.find((item) => item.id === id);
+    const information = pharmaciesInfo.find((item) => item.id === id);
+    
     const {
-      pharmacyName,
+      pharmaciesName,
       location,
       avgRating,
       reviews,
@@ -47,21 +47,21 @@ const PharmacyDetails = () => {
       console.log(reviewObj);
       toast.success("Review sent successfully");
     };
-  
+
     useEffect(() => {
       window.scrollTo(0, 0);
     }, [information]);
   
     return (
-      <Helmet title={pharmacyName}>
-        <CommonSection title={pharmacyName} />
+      <Helmet title={pharmaciesName}>
+        <CommonSection title={pharmaciesName} />
   
         <section className="pt-0">
           <Container>
             <Row>
               <Col lg="6">
                 <div className="product__details">
-                  <h2>{pharmacyName}</h2>
+                  <h2>{pharmaciesName}</h2>
                   <div className="product__rating d-flex align-items-center gap-3 mb-3">
                     <div className="">
                       <span>

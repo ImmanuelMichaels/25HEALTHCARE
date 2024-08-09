@@ -110,12 +110,11 @@ const Header = () => {
         <Row>
           <div className="nav__wrapper">
             <div className="logo">
-              {/* <img className="logo-img" src={logo} alt="logo" /> */}
+            
               <div>
-
+              
                 <h1>
-                  <span>⚕</span>
-                  GRACE CAREFINDER</h1>
+                  WELLNESS COMPASS</h1>
               </div>
             </div>
 
@@ -148,20 +147,7 @@ const Header = () => {
                   alt=""
                   onClick={toggleProfileActions}
                 />
-                {/* <div
-                  className="profile__actions"
-                  ref={profileActionRef}
-                  onClick={toggleProfileActions}
-                >
-                {currentUser ? (
-                    <span onClick={logout}>Logout</span>
-                    ) : (
-                    <div className="d-flex align-items-center justify-content-center flex-column">
-                      <Link to="/signup">Signup</Link>
-                      <Link to="/login">Login</Link>
-                    </div>
-                    )}
-                  </div> */}
+                
               </div>
                   <div className="auth-buttons">
                       {!currentUser ? (

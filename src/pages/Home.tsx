@@ -12,6 +12,7 @@ import pharmaciesInfo from "../assets/data/pharmacyInfo";
 
 import Services from "../services/Services";
 import HospitalList from "../components/UI/HospitalList";
+import PharmacyList from "../components/UI/PharmacyList";
 import { setPharmacies } from "../redux/slices/PharmacySlice";
 // import counterImg from "../assets/images/counter-timer-img.png";
 
@@ -69,11 +70,11 @@ const Home = () => {
           <Row>
             <Col lg="6" md="6">
               <div className="hero__content">
-                <p className="hero__subtitle">Looking For Hospitals or Pharmacies?</p>
-                <h2>We've Got You Covered </h2>
+                <p className="hero__subtitle">Locate Hospitals or Pharmacies with Ease?</p>
+                <h2> We've Made Your Search Easy </h2>
                 <p>
-                  Find the best hospitals and pharmacies that offers <br />
-                  healthcare services at affordable rate.
+                  Find the best hospitals and pharmacies  <br />
+                  in seconds.
                 </p>
 
                 <motion.button
@@ -94,13 +95,13 @@ const Home = () => {
       </section>
 
       <Services />
-      <section className="trending__products">
+      <section className="best_sales">
         <Container>
           <Row>
             <Col lg="12"  className="text-center">
-              <h2 className="section__title">&#x1F48A; PHARMACIES</h2>
+              <h2 className="section__title">PHARMACIES</h2>
             </Col>
-            <HospitalList data={displayedPharmacies} />
+            <PharmacyList data={displayedPharmacies} />
           </Row>
         </Container>
       </section>
@@ -109,7 +110,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2 className="section__title">⚕ HOSPITALS</h2>
+              <h2 className="section__title">HOSPITALS</h2>
             </Col>
             <HospitalList data={displayedHospitals}/>
             
@@ -118,37 +119,13 @@ const Home = () => {
       </section>
      
 
-      {/* <section className="timer__count">
-        <Container>
-          <Row>
-            <Col lg="6" md="12" className="count__down-col">
-              <div className="clock__top-content">
-                <h4 className="text-white fs-6 mb-2">Limited Offers</h4>
-                <h3 className="text-white fs-5 mb-3">Quality Armchair</h3>
-              </div>
-              <Clock />
-              <motion.button
-                whileTap={{ scale: 1.2 }}
-                className="buy__button store__btn"
-              >
-                <Link to="/shop">Visit Store</Link>
-              </motion.button>
-            </Col>
-
-            <Col lg="6" md="12" className="text-end counter__img">
-              <img src={counterImg} alt="" />
-            </Col>
-          </Row>
-        </Container>
-      </section> */}
-
       <section className="new__arrivals">
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
               <h2 className="section__title">Popular Search - Pharmacies</h2>
             </Col>
-            <HospitalList data={popularPharmacies} />
+            <PharmacyList data={popularPharmacies} />
           </Row>
         </Container>
       </section>
