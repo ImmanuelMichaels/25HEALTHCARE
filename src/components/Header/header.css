@@ -128,8 +128,8 @@ position: relative;
   top: 0;
   left: 0;
   z-index: 999;
-  box-shadow: 3px 3px 8px -3px #ddd;
-  background: var(--card-bg-03);
+  box-shadow: 3px 3px 8px -3px var(--bs-accordion-btn-focus-border-color);
+  background: #d6e5fb;
 }
 .sticky__menu .nav__item a {
   color: var(--primary-color);

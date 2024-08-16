@@ -70,10 +70,10 @@ const Home = () => {
           <Row>
             <Col lg="6" md="6">
               <div className="hero__content">
-                <p className="hero__subtitle">Locate Hospitals or Pharmacies with Ease?</p>
-                <h2> We've Made Your Search Easy </h2>
+                <p className="hero__subtitle">Healthcare in your Pocket</p>
+                <h2> Healthcare at your reach </h2>
                 <p>
-                  Find the best hospitals and pharmacies  <br />
+                  Easily Access Healthcare
                   in seconds.
                 </p>
 
@@ -81,15 +81,15 @@ const Home = () => {
                   whileTap={{ scale: 1.2 }}
                   className="buy__button"
                 >
-                  <Link to="/hospital">Explore</Link>
+                  <Link to="/hospital">Read More</Link>
                 </motion.button>
               </div>
             </Col>
-            <Col lg="6" md="6">
+            {/* <Col lg="6" md="6">
               <div className="hero__img">
                 <img  src={heroImg} alt="" />
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </section>

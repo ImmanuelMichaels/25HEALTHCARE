@@ -24,6 +24,7 @@ const Login = () => {
       setLoading(false);
       toast.success('Successfully logged in');
       navigate('/hospital');
+      navigate('/pharmacy');
     } catch (error: any) {
       setLoading(false);
       toast.error(error.message);

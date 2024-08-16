@@ -39,11 +39,11 @@ const nav__link = [
   },
   {
     path: "hospital",
-    display: "Hospital List",
+    display: "Hospitals",
   },
   {
     path: "pharmacy",
-    display: "Pharmacy List",
+    display: "Pharmacies",
   }
 ];
 
@@ -114,7 +114,7 @@ const Header = () => {
               <div>
               
                 <h1>
-                  WELLNESS COMPASS</h1>
+                  25HEALTHCARE</h1>
               </div>
             </div>
 

@@ -17,13 +17,12 @@ const Footer = () => {
             
              <div>
               <h1 className='text-white'>
-              <img src="../public/logo.png" alt="logo image" />
-                WellnessCompass</h1>
+                25Healthcare</h1>
              </div>
             </div>
 
             <p className="footer__text mt-4 ">
-            Find hospitals and pharmacies <br />with ease.</p>
+            Healthcare in your pocket.</p>
           </Col>
 
          
@@ -34,7 +33,11 @@ const Footer = () => {
             </h4>
             <ListGroup className='mb-3'>
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='/hospital'>Hospital List</Link>
+                <Link to='/hospital'>Hospitals</Link>
+              </ListGroupItem>
+
+              <ListGroupItem className='ps-0 border-0'>
+                <Link to='/pharmacy'>Pharmacies</Link>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0'>
@@ -60,17 +63,17 @@ const Footer = () => {
             <ListGroup className='footer__contact'>
               <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
                 <span><i class="ri-map-pin-2-line"></i></span>
-                <p>30 Awolowo way, Ogun State, Nigeria</p>
+                <p>3023 JD Ekorinim, Calabar, Cross River State.</p>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
               <span><i class="ri-phone-line"></i></span>
-                <p>+234 818 321 9693</p>
+                <p>+234 810 418 7487</p>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
               <span><i class="ri-mail-line"></i></span>
-                <p>chat@wellnesscompass.com</p>
+                <p>admin@25healthcare.uk</p>
               </ListGroupItem>
 
             </ListGroup>
@@ -79,7 +82,7 @@ const Footer = () => {
 
            <Col lg='12'>
            <p className="footer__copyright">
-            Copyright {year } developed by Samuel Oyelaran. All rights reserved. 
+            Copyright {year } Developed by Emmanuel Michael. All rights reserved. 
            </p>
            </Col>  
         </Row>

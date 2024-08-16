@@ -1,21 +1,21 @@
 const serviceData = [
   {
     icon: "ri-speak-fill",
-    title: "Free Consulation",
-    subtitle: "Get free consultations on us.",
+    title: "Speak with a consultant",
+    subtitle: "Book an appointment with our consutants.",
     bg: "#fdefe6",
   },
   {
     icon: "ri-search-line",
-    title: "Find hospistals",
-    subtitle: "Find hospitals near you easily.",
+    title: "Locate Hospitals & Pharmacies",
+    subtitle: "Find hospitals and pharmacies near you easily.",
     bg: "#ceebe9",
   },
   
   {
     icon: "ri-global-line",
-    title: " Nationwide",
-    subtitle: "Hospitals from all over Nigeria.",
+    title: " Nationwide Coverage",
+    subtitle: "Hospitals & Pharmacies from all over Nigeria.",
     bg: "#d6e5fb",
   },
 ];
